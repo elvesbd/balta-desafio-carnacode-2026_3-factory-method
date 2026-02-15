@@ -11,8 +11,8 @@ public class WhatsAppNotification(string recipient, string title, string message
     
     public void Send()
     {
-        Console.WriteLine($"💬 Enviando WhatsApp para {Recipient}");
-        Console.WriteLine($"   Mensagem: {Message}");
-        Console.WriteLine($"   Template: {UseTemplate}");
+        Console.WriteLine($"Enviando WhatsApp para {Recipient}");
+        Console.WriteLine($"Mensagem: {Message}");
+        Console.WriteLine($"Template: {UseTemplate}");
     }
 }
