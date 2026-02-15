@@ -2,7 +2,7 @@ using DesignPatternChallenge.Abstractions;
 
 namespace DesignPatternChallenge.Notifications;
 
-public class PushNotification(string recipient, string title, string message, int badge) : INotification
+public class PushNotification(string recipient, string title, string message, int badge = 1) : INotification
 {
     public string Recipient { get; } = recipient;
     public string Title { get; }  = title;
